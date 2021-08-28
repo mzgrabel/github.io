@@ -1,0 +1,107 @@
+---
+title: "CV"
+---
+
+Hello, <br>
+Welcome to my website! I offer my own video lectures and tutoring services. I also include my CV here and some of my piano videos. <br>
+
+<div class = "col">
+<div class = "col-md-6">
+
+
+## Skills <br>
+**Programming Languages** <br>
+-- R, Stata, SAS, Python, MATLAB, LaTeX, SQL <br>
+-- Microsoft Word, Excel, and Powerpoint <br>
+
+## Education <br>
+**Doctor of Philosophy, Biostatistics**   Aug 2020 - Present <br>
+*University of Cincinnati College of Medicine, Cincinnati, Ohio* <br>
+<br>
+**Master of Science, Mathematical Sciences (Applied)**   Aug 2019 <br>
+*University of Cincinnati, Cincinnati, Ohio* <br>
+Thesis: A Lagrangian/Eulerian Approach for Capturing Topological Changes in Moving Interface Problems <br>
+Advisor: Prof. Benjamin Vaughan <br>
+GPA: 3.7/4.0 <br>
+<br>
+**Bachelor of Science, Mathematical Sciences (Departmental Honors)**   Aug 2017 <br>
+*University of Cincinnati, Cincinnati, Ohio* <br>
+Capstone Project: Mathematical Model for Computer-Assisted Modification of Medication Dosing Rules. <br>
+GPA: 3.3/4.0 <br>
+
+
+
+## Organizational Leadership <br>
+**National Liaison for the Union of Concerned Scientists**   May 2021 - Present <br>
+*University of Cincinnati Science Policy Ambassadors* <br>
+-- Communicates with the Union of Concerned Scientists and relays events to local group <br>
+<br>
+
+**President of NeuroSociety**   2015 - 2016 <br>
+	-- Led meetings for undergraduate organization that explores topics and career options in neuroscience <br>
+<br>
+	-- Coordinated with a team of officers to schedule guest speakers, plan budgets for food at meetings, and make students aware through social media <br>
+
+
+## Honors & Scholarships <br>
+**Recipient, Graduate Incentive Award**   2017 - 2018 <br>
+*University of Cincinnati Department of Mathematical Sciences, Cincinnati, Ohio* <br>
+<br>
+**Recipient, STEM Research Award**   2016 - 2017 <br>
+*University of Cincinnati Department of Mathematical Sciences, Cincinnati, Ohio* <br>
+<br>
+**Recipient, Harris Hancock Scholarship**   2015 - 2016 <br>
+*University of Cincinnati Department of Mathematical Sciences, Cincinnati, Ohio* <br>
+<br>
+**Recipient, Deans List**   2014 - 2017 <br>
+*University of Cincinnati, Cincinnati, Ohio* <br>
+<br>
+
+
+</div>
+<div class = "col-md-6">
+
+<center>
+<img align="center" width="250" height="350" src="profile21.jpg"> <br>
+</center>
+<br>
+
+
+## Experience <br>
+
+**Research Assistant**   June 2021 - Present <br>
+*University of Cincinnati Neurocardiology Research Laboratory and the Artificial Intelligence Center of Excellence* <br>
+
+**Graduate Assistant**   Sep 2020 - 2021 <br>
+*University of Cincinnati Department of Environmental Health Division of Biostatistics and Bioinformatics, Cincinnati, Ohio* <br>
+  -- TA for Statistical Computing and Software, & Introduction to Biostatistics. <br>
+  <br>
+  -- Answers questions from students and generates homework solutions. <br>
+  <br>
+  -- Research Assistant working on projects with faculty. Namely a consulting project with Dr. Jandarov where I           processed and analyzed the data; and Dr. Rao on a sum of powers of integers problem.<br>
+<br>
+**Supplemental Review Session Leader**   Jan - Apr 2017 <br>
+*University of Cincinnati Learning Assistance Center, Cincinnati, Ohio* <br>
+  -- Tutored and led small groups of students taking calculus sequences in review sessions twice a week <br>
+<br>
+	-- Prepared and reviewed worksheet materials for sessions each week <br>
+<br>
+	-- Tailored teaching, speaking, and collaboration skills <br>
+<br>
+**Research Intern in Division of Biomedical-Informatics**   Jan 2016 - Jul 2017 <br>
+*Cincinnati Children’s Hospital Medical Center, Cincinnati, Ohio*
+  -- Worked under the supervision of Eric Kirkendall M.D. and Judith Dexheimer Ph.D <br>
+<br>
+	-- Assisted in the development and implementation of a mathematical model and numerical algorithm to optimize dosing rules from historical dosing data <br>
+<br>
+	-- Wrote SQL queries to retrieve medication order/alert data from database <br>
+<br>
+  -- Collected and graphed data in Excel/R to find trends in medication orders/alerts <br>
+<br>
+	-- Drafted a manuscript for publication in Biomedical Informatics Insights <br>
+	   --- Results were presented at the American Academy of Pediatrics and the Ohio Academy of Science <br>
+<br>
+
+
+</div>
+</div>

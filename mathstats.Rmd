@@ -1,0 +1,14 @@
+---
+title: "Mathematical Statistics"
+---
+
+# Coming Soon
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+
+<ul class="pager"> <!--this is the style of the button-->
+<li><a href="#courses.html">Back</a></li> <!--This button takes me to the table of contents-->
+<li><a href="#render-document">Next</a></li> <!--This button takes me to the previous page-->
+</ul>
