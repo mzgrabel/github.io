@@ -1,0 +1,19 @@
+name: "mzgrabel"
+navbar:
+  title: "Mike Grabel"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: about.html
+    - text: "Publications"
+      href: pub.html
+    - text: "Courses"
+      href: courses.html
+    - text: "Piano"
+      href: piano.html
+      
+output:
+  html_document:
+    theme: cosmo
+output_dir: docs
