@@ -2,7 +2,6 @@
 title: "CV"
 ---
 
-<img align="right" width="250" height="350" src="profile21.jpg"> <br>
 
 <br>
 
