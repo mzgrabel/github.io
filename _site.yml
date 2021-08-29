@@ -17,5 +17,5 @@ navbar:
       
 output:
   html_document:
-    theme: jekyll-theme-cayman
+    theme: cosmo
 output_dir: docs
