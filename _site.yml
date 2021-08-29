@@ -18,6 +18,3 @@ navbar:
 output:
   html_document:
     theme: cosmo
-    include:
-      after_body:
-    css: style.css
