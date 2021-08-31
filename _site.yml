@@ -16,8 +16,7 @@ navbar:
       
 output:
   html_document:
-    theme: cosmo
-    include:
+    theme: readable
     css: styles.css
 output_dir: _site
 ---
