@@ -1,3 +1,4 @@
+---
 name: "mzgrabel"
 navbar:
   title: "Mike Grabel"
@@ -18,3 +19,4 @@ output:
     theme: cosmo
     css: style.css
 output_dir: docs
+---
