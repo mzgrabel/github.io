@@ -17,6 +17,7 @@ navbar:
 output:
   html_document:
     theme: cosmo
+    include:
     css: styles.css
 output_dir: docs
 ---
