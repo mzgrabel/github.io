@@ -15,5 +15,5 @@ navbar:
       
 output:
   html_document:
-    theme: cosmo
+    theme: slate
 output_dir: docs
