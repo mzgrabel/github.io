@@ -15,5 +15,4 @@ navbar:
       
 output:
   html_document:
-    theme: default
 output_dir: docs
