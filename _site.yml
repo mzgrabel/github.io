@@ -9,8 +9,6 @@ navbar:
       href: about.html
     - text: "Publications"
       href: pub.html
-    - text: "Courses"
-      href: courses.html
     - text: "Piano"
       href: piano.html
       
