@@ -1,5 +1,0 @@
----
-title: "Applied Statistics"
----
-
-# Coming Soon
