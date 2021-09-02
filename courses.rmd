@@ -8,3 +8,5 @@ title: "Courses"
 
 - [Computational Statistics](.\compstat.html)
 
+design and analysis of experiemnts
+applied regression analysis
