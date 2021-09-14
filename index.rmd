@@ -7,7 +7,7 @@ title: "Tutoring Services"
 <img align="right" width="250" height="350" src="profile21.jpg"> <br>
 
 Hello, <br>
-Welcome to my website! I offer tutoring services in mathematics, statistics, and computer science. <br> I also include my CV here and some of my piano videos. <br>
+Welcome to my website! I offer my own video lectures and tutoring services. <br> I also include my CV here and some of my piano videos. <br>
 
 
 
