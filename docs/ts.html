@@ -13,22 +13,12 @@
 
 <title>What is Tourette’s Syndrome?</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -43,6 +33,11 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -55,6 +50,32 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
 
 
 
@@ -65,6 +86,10 @@ if (window.hljs) {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -81,13 +106,40 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
-pre code {
-  padding: 0;
-}
 </style>
 
 
 <style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
 .dropdown-submenu {
   position: relative;
 }
@@ -115,7 +167,7 @@ pre code {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
+  border-left-color: #ffffff;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -127,7 +179,7 @@ pre code {
 }
 </style>
 
-<script type="text/javascript">
+<script>
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -138,23 +190,10 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.tab('show');
+  menuAnchor.parent().addClass('active');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
 });
 </script>
 
@@ -166,6 +205,7 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
+  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -251,7 +291,13 @@ $(document).ready(function () {
   <a href="pub.html">Publications</a>
 </li>
 <li>
+  <a href="courses.html">Courses</a>
+</li>
+<li>
   <a href="piano.html">Piano</a>
+</li>
+<li>
+  <a href="ts.html">Tourette's Syndrome</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -261,7 +307,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div id="header">
+<div class="fluid-row" id="header">
 
 
 
@@ -270,8 +316,183 @@ $(document).ready(function () {
 </div>
 
 
+<p>I have a neurological movement disorder called Tourette’s Syndrome. It is a difficult and complex disorder. People are born with this disorder and it is lifelong. The onset of symptoms occur anywhere between the ages of 3 to 7 years old. It is also 3 times more likely to occur in males than in females. Tics vary from person to person and the severity ranges from mild to severe. Tics also wax and wane. It is hardly ever constant. Stress, anxiety, and even excitement can trigger an increase in tics. Symptoms are usually most severe during puberty and usually dies out in adulthood. It is rare to see it continue so severely into adulthood like me but I am a rare creature. <br></p>
+<p>I hope this information is informative for you. I generally like to educate others on what it is but then I do not want to think about it again. I am highly functional as a person with TS if I am not directly thinking about the tics so if they are brought up more tics will come out. You can of course ask questions about it but it is usually good to just ignore the tics and slowly filter them out of your mind much like I do and continue working. It helps to know that you know what it is.</p>
+<div id="symptoms" class="section level1">
+<h1>Symptoms: <br></h1>
+<p><strong>Tics</strong> - involuntary, rapid or sudden movements or vocalizations that occur repetitively <br></p>
+<div id="types-of-tics" class="section level3">
+<h3>Types of Tics: <br></h3>
+<ul>
+<li><strong>Motor Tics</strong> - Involuntary movements such as eye blinking, facial grimacing, and neck jerking <br></li>
+<li><strong>Vocal Tics</strong> - Involuntary sounds or vocalizations <br></li>
+<li><strong>Tics of the Mind</strong> - Difficult to define and distinguish from cognitive OCD. Just as a simple motor tic can occur this occurs in the mind in some similar fashion <br></li>
+</ul>
+</div>
+<div id="subtypes" class="section level3">
+<h3>Subtypes: <br></h3>
+<ul>
+<li><strong>Simple Tics</strong> - usually sudden, fast, brief, and meaningless movements that involve a specific muscle group <br>
+<ul>
+<li>Examples: eye blinking, facial grimacing, head and neck jerks, throat clearing, spitting, and grunting <br></li>
+</ul></li>
+<li><strong>Complex Tics</strong> - usually a cluster of movements that appear coordinated. <br>
+<ul>
+<li>Examples: clapping, touching something or someone in some fashion, hitting oneself, or complex facial expressions.</li>
+</ul></li>
+</ul>
+<div id="uncommon-or-rare-complex-tic-types" class="section level4">
+<h4>Uncommon or Rare Complex Tic Types: <br></h4>
+<ul>
+<li><strong>Echopraxia</strong> - involuntary imitation or repetition of some action seen or observed <br></li>
+<li><strong>Echolalia</strong> - involuntary imitation or repetition of something that is spoken or heard <br></li>
+<li><strong>Palipraxia</strong> - involuntary repetitions of ones own movements <br></li>
+<li><strong>Palilalia</strong> - involuntary repetition of ones own speech <br></li>
+<li><strong>Copropraxia</strong> - involuntary performing obscene gestures <br></li>
+<li><strong>Coprolalia</strong> - involuntary vocalizations where one blurts out obscenities* <br></li>
+</ul>
+<p>*I do not have any of these types of tics but they exist out there. The media in particular likes to focus in on Coprolalia and make fun of it and misdirect people into thinking this is what Tourette’s is when less than 10% of TS patients have this symptom.</p>
+</div>
+</div>
+<div id="comorbidities" class="section level3">
+<h3>Comorbidities:</h3>
+<ul>
+<li><strong>OCD</strong> - Obsessive Compulsive Disorder: a disorder in which people have recurring, unwanted thoughts, ideas or sensations (obsessions) that make them feel driven to do something repetitively (compulsions) <br></li>
+<li><strong>ADHD</strong> - Attention-Deficit Hyperactivity Disorder: a disorder where one cannot maintain focus on any one thing for long <br></li>
+<li><strong>MDD</strong> - Major Depressive Disorder: characterized by persistently low mood or loss of interest in activities <br></li>
+<li><strong>GAD</strong> - Generalized Anxiety Disorder: characterized by persistent and excessive worry about a number of different things <br></li>
+</ul>
+<p>There are likely others but these are at least the most common. I personally have OCD in addition to TS. These comorbidities can feed into each other making a truly horrible combination. For example obsessively worrying about how other people are perceiving you and your tics and bringing on a sense of doom if I do not do something feeds into the urge to tic and more tics come about because I am anxious.</p>
+</div>
+<div id="diagnostic-criterion" class="section level3">
+<h3>Diagnostic Criterion:</h3>
+<ul>
+<li>having at least one motor and one vocal tic occurring for at least one year before the age of 18 with symptoms not explained by any other medical condition</li>
+</ul>
+</div>
+</div>
+<div id="causes" class="section level1">
+<h1>Causes</h1>
+<ul>
+<li>There is no known definite cause and there is no cure <br></li>
+<li>misfiring neurons in a highly specialized and complex motor system called the Basal Ganglia (BG) <br></li>
+<li>There is a genetic factor or a highly hereditary disorder <br></li>
+</ul>
+</div>
+<div id="neuropathophysiology" class="section level1">
+<h1>Neuropathophysiology</h1>
+<div id="cortico-basal-ganglia-thalmocortical-pathways-cbgt" class="section level3">
+<h3>Cortico-Basal Ganglia Thalmocortical Pathways (CBGT)</h3>
+<p>These pathways are directions for brain signals from the cortex to go into the BG and providing output back to the cortex <br> - <strong>Direct</strong> - positive feedback loop that facilitates movement <br> - <strong>Indirect</strong> - negative feedback loop that inhibits movement <br> - <strong>Hyperdirect</strong> - also negative feedback loop but bypasses an input structure in the brain. This too inhibits movement <br></p>
+<div id="important-anatomical-structures" class="section level4">
+<h4>Important Anatomical Structures</h4>
+<ul>
+<li><strong>STN</strong> - Sub-Thalamic Nucleus</li>
+<li><strong>GPi</strong> - Globus Pallidus interior These areas of the brain are significantly involved in the pathways of neural signals in the BG</li>
+</ul>
+<p><img width="350" height="350" src="pathways.jpg"> <img width="350" height="350" src="bg.jpg"> <br></p>
+<ul>
+<li>The direct pathway activates desired movements and actions coming from the cortex where we decide what we want to do</li>
+<li>The other two pathways suppress any unwanted competing movements</li>
+<li>Therefore, selected movements are enabled and competing movements are prevented from interfering with the one selected</li>
+<li>However; anatomical evidence points out that these circuits are far more complex than this</li>
+<li>In the pathophysiology of TS structural changes in the BG have been reported in a broad range of these cortical areas in the brain</li>
+<li>Various neuroimaging studies have shown reduced volumes and abnormal asymmetries of the caudate nucleus, putamen, and globus pallidus</li>
+<li>Studies have also shown that in patients with TS there are abnormal grey matter volumes (neuronal cell bodies, dendrites, glial cells, and synapses) and other abnormalities in white matter (mylinated axons, how action potentials are propagated)</li>
+<li>Errors in the inhibition of unwanted competing movements can lead to tics.</li>
+<li>In TS, this unwanted inhibition of the main output nuclei of the BG leads to disinhibition (an increase in strength of the stimulus of an unrelated extinguished response) of its thalamocortical targets and thus in turn can lead to repeated stereotyped unwanted movements like tics</li>
+<li>Mechanisms that can be responsible for such an unwanted activation are:
+<ul>
+<li>excessive cortical or thalamic input to the striatum (primary input to the BG)</li>
+<li>deficiency of intrastriatal inhibition</li>
+<li>abnormal dopamine transmission</li>
+<li>abnormal membrane excitability</li>
+</ul></li>
+</ul>
+<p>Many features of TS can be explained as a failure to inhibit unwanted movements, behaviors, and thoughts resulting from these abnormal BG output patterns. For example, abnormal activation of the motor cortex can produce simple tics, and abnormal activation of the premotor cortex can lead to complex tics.</p>
+<p>In summary input signals are coming from the cortex go to the striatum to the basal ganglia taking either the direct or indirect pathway filtering out some movement and outputs back to the motor cortex where the body produces physical movement. When these signals misfire so to speak tics are produced.</p>
+</div>
+<div id="dopaminergic-neurotransmitter-system" class="section level4">
+<h4>Dopaminergic Neurotransmitter System</h4>
+<ul>
+<li><strong>Dopaminergic Neurons</strong> - neurons that activate based on dopamine <br></li>
+<li>In the BG these neurons overall enhances the thalamacortical excitation <br></li>
+<li>Abnormalities in this system seems to play a significant role in TS</li>
+<li>Studies show these abnormalities in the striatum</li>
+<li>This is why medications that are dopamine antagonists usually supress tics
+<ul>
+<li><strong>antagonist</strong> is one that blocks the neurotransmitter in the neuron</li>
+</ul></li>
+</ul>
+<p>Much more research is needed on the pathophysiology of this disorder. Most current research is focused on the genetic factor that would lead to these structural changes. With the rise of bioinformatics and computational systems biology we could see further results</p>
+</div>
+</div>
+</div>
+<div id="treatments" class="section level1">
+<h1>Treatments</h1>
+<ul>
+<li>There is no medication specifically for TS</li>
+<li>Medications are prescribed based on what might aid tic reduction in the circuitry</li>
+<li>Doctors go-to medications are neuroleptics or anti-psychotics, which are dopamine antagonists
+<ul>
+<li>e.g. Haldol or Risperdal</li>
+<li>Horrible side effects: Sedation, weight gain, dizziness, nausea, fatigue, depression, and insomnia</li>
+</ul></li>
+<li>Doctors also resort to off label use of other medications: Guanfacine or Clonodine; these are approved for the use in treating high blood pressure but not TS</li>
+<li>Other medications: Benzodiazpine’s like Xanax, Ativan or Klonopin</li>
+<li>SSRI’s or Selective Serotonin Reuptake Inhibitors such as fluoxetine, sertraline, and fluvoxamine. Targets serotonin systems over dopamine</li>
+<li>SNRI’s or Serotonin-Norepinephrine reuptake inhibitors such as Venlafaxine or Effexor. Targets norepinephrine (another neurotransmitter) in addition to serotonin</li>
+<li>Nicotine Patches</li>
+<li>Cannabinoids like marijuana or cannabidiol (CBD)</li>
+</ul>
+<div id="behavioral-interventions" class="section level4">
+<h4>Behavioral Interventions</h4>
+<ul>
+<li>CBT or Cognitive Behavioral Therapy: working with a psychologist on isolating a specific behavior or even a tic to change how you cognitively, emotionally, and physically react or respond to it.</li>
+<li>CBIT or Comprehensive Behavioral Intervention for Tics: more specialized version of CBT, not many psychologists are trained in using it, It involves giving a competing response to tics, which involves becoming particularly aware of how and when you tic, and redirecting the tic to a competing response behavior. e.g. I have a tic where I hit myself in the face if I want to reduce that tic I would have a competing response, any time I had the urge to slap my face I would instead redirect the tension to move my arm outward. This is incredibly difficult if not impossible in some cases because tics cannot be controlled it is involuntary it just happens.But this training can be useful in treating tics and helping your quality of life</li>
+</ul>
+</div>
+<div id="deep-brain-stimulation-dbs-surgery" class="section level4">
+<h4>Deep Brain Stimulation (DBS) Surgery</h4>
+<ul>
+<li>Involves the implantation of a neurostimulator or leads into a particular area of the brain in the BG</li>
+<li>the neurostimulator or a lead has four contact points on it that sends out charges or stimulation based on the parameters of stimulation programmed by a neurologist</li>
+<li>The settings of these parameters are housed in a battery pack that is put typically in your chest and is connected to the brain stimulators</li>
+<li>Settings to be adjusted:
+<ul>
+<li>voltage current or amplitude: the amount of charge given, usually very high charges are good for tics</li>
+<li>pulse width: the length of time the charge is given</li>
+<li>frequency: how often the charge is given</li>
+</ul></li>
+<li>There are two modes a particular contact point on a lead can take:
+<ul>
+<li>Monopolar Stimulation: the contact point acts as an anode or a positively charged area thus giving charge to the brain. More spherical in shape</li>
+<li>Bipolar Stimulation: One contact point acts as an anode and another contact point as a cathode or taking charge away thus giving a stimulation structure that at one level is giving charges and at another is sucking up charge. More elliptical in shape</li>
+</ul></li>
+</ul>
+<p>DBS is most popularly done in Parkinson’s Disease Patients but its uses are being explored for other disorders.</p>
+<div id="targets-for-dbs-in-patients-with-ts" class="section level5">
+<h5>Targets for DBS in patients with TS</h5>
+<ul>
+<li>GPi - Globus Pallidus interior</li>
+<li>STN - Sub-Thalamic Nucleus</li>
+</ul>
+<p>More generally the substructures of the BG are targeted. <br> - DBS creates a functional ablation or lesion, which reduces information flow through the stimulated nucleus <br> - In theory if the targeted location is correct in DBS, the lesioning out the misfirings of TS may result in a significant reduction in tics <br></p>
+<p><img width = "450" height = "350" src="deepBrain.jpg"> <br></p>
+<p>I personally have undergone DBS 5 times in the past 10 years. That is 4 too many or maybe 5. The reasons for this are complicated <br></p>
+<p>Here is the youtube video I made which covers a lot of this stuff listed here but I also go into more of my personal experience:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCMCBQZ0zko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
+</div>
+</div>
+<div id="references" class="section level2">
+<h2>References:</h2>
+<p><a href="https://tourette.org/about-tourette/overview/what-is-tourette/">Tourette Association of America</a> <br></p>
+<p>James F Leckman, Tourette’s syndrome, <em>The Lancet</em>, Vol 360(9345), 2002 DOI: <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(02)11526-1/fulltext">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(02)11526-1/fulltext</a></p>
+<p>Joseph Jankovic, Tourette syndrome, <em>orphanet</em>, <a href="https://www.orpha.net/data/patho/GB/uk-tourette.pdf">https://www.orpha.net/data/patho/GB/uk-tourette.pdf</a></p>
+<p>Smeets, A. Y. J. M. (2018). New insights in deep brain stimulation for Tourette syndrome. Datawyse / Universitaire Pers Maastricht. <a href="https://doi.org/10.26481/dis.20180601as">https://doi.org/10.26481/dis.20180601as</a></p>
+</div>
+</div>
 
 
 
@@ -300,7 +521,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
+    $(this).parent().toggleClass('nav-tabs-open')
   });
 });
 </script>
