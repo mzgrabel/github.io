@@ -7,8 +7,17 @@ title: "CV"
 
 ## Skills <br>
 **Programming Languages** <br>
--- R, Stata, SAS, Python, MATLAB, LaTeX, SQL <br>
+-- R, Stata, SAS, Python, MATLAB, LaTeX, SQL, C++ <br>
 -- Microsoft Word, Excel, and Powerpoint <br>
+**Soft Skills:** <br>
+-- Adaptability <br>
+-- Critical Thinking <br>
+-- Presentation <br>
+-- Scientific Writing <br>
+-- Interpersonal Skills & Teamwork <br>
+-- Emotional Intelligence & Empathy <br>
+-- Organized & Independent <br>
+-- Willingness to Learn <br>
 
 ## Education <br>
 **Doctor of Philosophy, Biostatistics**   Aug 2020 - Present <br>
@@ -28,8 +37,18 @@ GPA: 3.3/4.0 <br>
 
 ## Experience <br>
 
-**Research Assistant**   June 2021 - Present <br>
+**Academic Coach** Feb 2022 - Present <br>
+*University of Cincinnati Accessibility Recourses* <br>
+
+**Research Assistant**  Jan 2022 - Present <br>
+*Cincinnati Children's Hospital Medical Center Division of Biostatistics and Epidemiology* <br>
+-- Working under Rhonda Szczeniak Ph.D. and Judith Dexheimer Ph.D. on a Cystic Fibrosis project <br>
+
+**Research Assistant**   Jun 2021 - Dec 2021 <br>
 *University of Cincinnati Neurocardiology Research Laboratory and the Artificial Intelligence Center of Excellence* <br>
+-- Worked under Dr Deeptanker DeMazumder and Dr Benjamin Vaughan <br>
+-- Data quality engineering on hospitalization EHR data in Stata <br>
+-- Worked on defining readmission in big data <br>
 
 **Graduate Assistant**   Sep 2020 - 2021 <br>
 *University of Cincinnati Department of Environmental Health Division of Biostatistics and Bioinformatics, Cincinnati, Ohio* <br>
@@ -73,6 +92,9 @@ GPA: 3.3/4.0 <br>
 <br>
 	-- Coordinated with a team of officers to schedule guest speakers, plan budgets for food at meetings, and make students aware through social media <br>
 
+## Certifications <br>
+**HSR CORE for 2017 Program, CITI Program** May 09, 2021 - May 08, 2024 <br>
+*Greater Cincinnati Academic and Regional Health Centers* <br>
 
 ## Honors & Scholarships <br>
 **Recipient, Graduate Incentive Award**   2017 - 2018 <br>

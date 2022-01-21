@@ -7,11 +7,10 @@ title: "Tutoring Services"
 <img align="right" width="250" height="350" src="profile21.jpg"> <br>
 
 Hello, <br>
-Welcome to my website! I offer my own video lectures and tutoring services. <br> I also include my CV here and some of my piano videos. <br>
+Welcome to my website!
 
 
-
-I am offering online tutoring resources starting at $25/h. <br>
+I am offering online tutoring resources starting at $35/h. <br>
 Contact me at [mzgrabel@gmail.com](mailto:mzgrabel@gmail.com?subject=Tutoring) <br>
 <br>
 
@@ -73,4 +72,7 @@ CRLA (College Reading and Learning Association) Level 1 & 2
 -- Meta-Analysis <br>
 -- Clinical Trials <br>
 -- Statistical Genetics <br> 
-
+-- General Linear Models <br>
+-- Applied Multivariate Analysis <br>
+-- Biostatistics in Research <br>
+-- Survey of Toxicology <br>
