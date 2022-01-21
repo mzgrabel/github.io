@@ -1,5 +1,0 @@
----
-title: "Computational Statistics"
----
-
-# Coming Soon
