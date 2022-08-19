@@ -1,10 +1,10 @@
 name: "mzgrabel"
 navbar:
-  title: "Mike Grabel"
+  title: ""
   left:
     - text: "Home"
       href: index.html
-    - text: "Publications"
+    - text: "Publications and Research"
       href: pub.html
     - text: "Piano"
       href: piano.html

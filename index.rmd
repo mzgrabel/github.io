@@ -1,157 +1,158 @@
 ---
-title: "CV"
+title: ""
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
+<img src="profile21.jpg" align="right" width="250" height="350"/> <br>
 
-
-<img align="right" width="250" height="350" src="profile21.jpg"> <br>
-
-
+# Curriculum Vitae  
 <br>
 
 ## Skills <br>
-**Programming Languages** <br>
--- R, SAS, Python, MATLAB, LaTeX, SQL, STATA, C++ <br>
--- Microsoft Word, Excel, and Powerpoint <br>
-**Soft Skills:** <br>
--- Adaptability <br>
--- Critical Thinking <br>
--- Presentation <br>
--- Scientific Writing <br>
--- Interpersonal Skills & Teamwork <br>
--- Emotional Intelligence & Empathy <br>
--- Organized & Independent <br>
--- Willingness to Learn <br>
+
+**Programming Languages** <br> -- R, Python, MATLAB, LaTeX, SAS, SQL,
+STATA, Julia, Linux, C++ <br> -- Microsoft Word, Excel, and Powerpoint <br> **Soft
+Skills:** <br> -- Adaptability <br> -- Critical Thinking <br> --
+Presentation <br> -- Scientific Writing <br> -- Interpersonal Skills &
+Teamwork <br> -- Emotional Intelligence & Empathy <br> -- Organized &
+Independent <br> -- Willingness to Learn <br>
 
 ## Education <br>
-**Doctor of Philosophy, Biostatistics**   Exp 2023 <br>
-*University of Cincinnati College of Medicine, Cincinnati, Ohio* <br>
-<br>
-**Master of Science, Mathematical Sciences (Applied)**   Aug 2019 <br>
-*University of Cincinnati, Cincinnati, Ohio* <br>
-Thesis: A Lagrangian/Eulerian Approach for Capturing Topological Changes in Moving Interface Problems <br>
-Advisor: Prof. Benjamin Vaughan <br>
+
+**Doctor of Philosophy, Biostatistics** Exp Aug or Dec 2023 <br> *University of
+Cincinnati College of Medicine, Cincinnati, Ohio* <br> 
+Dissertation: TBD <br>
+Advisors: Prof. Wei-Wen Hsu and Prof. Judith Dexheimer <br>
 GPA: 3.7/4.0 <br>
-<br>
-**Bachelor of Science, Mathematical Sciences (Departmental Honors)**   Aug 2017 <br>
-*University of Cincinnati, Cincinnati, Ohio* <br>
-Capstone Project: Mathematical Model for Computer-Assisted Modification of Medication Dosing Rules. <br>
-GPA: 3.3/4.0 <br>
-<br>
+**Master of
+Science, Mathematical Sciences (Applied)** Aug 2019 <br> *University of
+Cincinnati, Cincinnati, Ohio* <br> Thesis: A Lagrangian/Eulerian
+Approach for Capturing Topological Changes in Moving Interface Problems
+<br> Advisor: Prof. Benjamin Vaughan <br> GPA: 3.7/4.0 <br> 
+**Bachelor of Science, Mathematical Sciences (Departmental Honors)** Aug
+2017 <br> *University of Cincinnati, Cincinnati, Ohio* <br> Capstone
+Project: Mathematical Model for Computer-Assisted Modification of
+Medication Dosing Rules. <br> GPA: 3.3/4.0 <br> 
 
 ## Experience <br>
 
-**Summer Intern** Jun - Aug 2022 <br>
-*Graduate Data Science Summer Internship Program, National Institutes of Health* <br>
--- Preprocessing experimental neural data for a recurrent spiking network model <br>
--- Utilizing the high performance computing environment in linux provided by the NIH to run the GPU based model algorithm 
+**Summer Intern** Jun - Aug 2022 <br> *Graduate Data Science Summer
+Internship Program, National Institutes of Health* <br> 
+-- Participated in customized curriculum that will use case studies and group activities to explore the many uses of data science within biomedical research. <br>
+-- Participated in a leadership development program focused on self-awareness, resiliency, conflict management, effective mentoring relationships, and understanding emotional intelligence. <br>
+-- Engaged with the broader NIH community in discussing cutting-edge research through participation at the NIH Summer Poster Day <br>
+-- Utilized the high performance computing environment provided by the NIH through linux bash environment <br>
+-- Utilized computational skills to preprocess and analyze experimental neural data to put into a recurrent neural network (RNN) to determine/simulate the distribution of neural activity in the Laboratory of Biological Modeling at the NIDDK <br>
 
-**Academic Coach** Feb - Apr 2022 <br>
-*University of Cincinnati Accessibility Resources* <br>
--- Meet with students who need academic help <br>
--- Assisted in developing students executive functioning skills <br>
 
-**Research Assistant**  Jan 2022 - Present <br>
-*Cincinnati Children's Hospital Medical Center Division of Biostatistics and Epidemiology* <br>
--- Working under Rhonda Szczeniak Ph.D. and Judith Dexheimer Ph.D. on a Cystic Fibrosis project to predict for an outcome comparing machine learning methods to the statistical approach <br>
--- Used Tensorflow & Keras python packages to develop neural network code <br>
--- Developed algorithms to pre-process the big data <br>
--- Worked specifically with recurrent neural networks and imbalanced repeated measures data <br>
+**Research Assistant** Jan - Aug 2022 <br> *Cincinnati Children's
+Hospital Medical Center Division of Biostatistics and Epidemiology* <br>
+-- Working under Rhonda Szczesniak Ph.D and Judith Dexheimer Ph.D on a Cystic Fibrosis (CF) data to predict for an outcome comparing machine learning methods to the statistical approach <br>
+-- Developed algorithms to pre-process the big data using R to clean the data to be numeric only <br>
+-- Used Tensorflow & Keras python packages to develop AL/ML systems predicting for a CF outcome <br>
+-- Worked specifically with imbalanced repeated measures data <br>
+-- Implemented efficient algorithms to evaluate the effectiveness of the model; namely AUC, Sensitivity, and Specificity <br>
+-- Wrote a draft manuscript for publication, searched and reviewed other related articles to cite <br>
+-- Will be published later this year
 
-**Research Assistant**   Jun 2021 - Dec 2021 <br>
-*University of Cincinnati Neurocardiology Research Laboratory and the Artificial Intelligence Center of Excellence* <br>
--- Worked under Dr Deeptanker DeMazumder and Dr Benjamin Vaughan <br>
--- Data quality engineering on hospitalization EHR data in Stata <br>
--- Worked on defining readmission in big data <br>
+**Academic Coach** Feb - Apr 2022 <br> *University of Cincinnati
+Accessibility Resources* <br>
+-- Provided academic coaching sessions that helps students strengthen their executive functioning skills and develop academic success plans <br>
+-- Modeled and trained students to identify, develop, and implement course specific learning strategies and study skills <br>
+-- Prepared, distributed, and collected qualitative and quantitative student responses to coaching surveys and analysis to inform coaching structure <br>
+-- Referred students to appropriate academic personnel and support resources <br>
+-- Collaborated with others to monitor and accelerate the academic progress of students <br>
 
-**Graduate Assistant**   Sep 2020 - 2021 <br>
-*University of Cincinnati Department of Environmental Health Division of Biostatistics and Bioinformatics, Cincinnati, Ohio* <br>
-  -- TA for Statistical Computing and Software, & Introduction to Biostatistics. <br>
-  -- Answers questions from students and generates homework solutions. <br>
-  -- Research Assistant working on projects with faculty. Namely a consulting project with Dr. Jandarov where I           processed and analyzed the data; and Dr. Rao on a sum of powers of integers problem.<br>
-**Supplemental Review Session Leader**   Jan - Apr 2017 <br>
-*University of Cincinnati Learning Assistance Center, Cincinnati, Ohio* <br>
-  -- Tutored and led small groups of students taking calculus sequences in review sessions twice a week <br>
-	-- Prepared and reviewed worksheet materials for sessions each week <br>
-	-- Tailored teaching, speaking, and collaboration skills <br>
-**Research Intern in Division of Biomedical-Informatics**   Jan 2016 - Jul 2017 <br>
-*Cincinnati Children’s Hospital Medical Center, Cincinnati, Ohio*
-  -- Worked under the supervision of Eric Kirkendall M.D. and Judith Dexheimer Ph.D <br>
-	-- Assisted in the development and implementation of a mathematical model and numerical algorithm to optimize dosing rules from historical dosing data <br>
-	-- Wrote SQL queries to retrieve medication order/alert data from database <br>
-  -- Collected and graphed data in Excel/R to find trends in medication orders/alerts <br>
-	-- Drafted a manuscript for publication in Biomedical Informatics Insights <br>
-	   --- Results were presented at the American Academy of Pediatrics and the Ohio Academy of Science <br>
+**Research Assistant** Jun 2021 - Dec 2021 <br> *University of
+Cincinnati Neurocardiology Research Laboratory and the Artificial
+Intelligence Center of Excellence* <br> -- Worked under Dr Deeptanker DeMazumder and Dr Benjamin Vaughan <br>
+-- Evaluated quality of the EHR data <br>
+-- Created reports on the data quality issues and worked with mentors to develop an approach to address the problem <br>
+-- Developed a mathematical approach to rigorously define readmission to the hospital based on the variables given <br>
+
+**Graduate Assistant** Sep 2020 - 2021 <br> *University of Cincinnati
+Department of Environmental Health Division of Biostatistics and
+Bioinformatics, Cincinnati, Ohio* <br> -- Supported Statistical Computing and Software, & Introduction to Biostatistics as a TA. <br>
+-- Assisted with grading utilizing solutions that I generated <br>
+-- Corresponded with students via email on questions they had <br>
+-- Supported the development of a publication of Shaikh in a consulting project with Dr. Jandarov as a research rotation <br>
+-- Conducted statistical analysis using R to create Kaplan Meier Curves for survival analysis and logistic regression models for each of the covariates on a processed outcome variable <br>
+-- Conveyed results to a non-statistical medical doctor <br>
+-- Studied a sum of integers problem with Dr. Rao as a research rotation <br>
+
+**Supplemental Review
+Session Leader** Jan - Apr 2017 <br> *University of Cincinnati Learning
+Assistance Center, Cincinnati, Ohio* <br> -- Facilitated group calculus tutoring sessions with students that emphasize collaborative learning <br>
+-- Provided a safe space for students to learn and make mistakes using strategies learned through training <br>
+-- Attended trainings as required to continually develop tutoring and facilitation skills <br>
+-- Maintained a professional attitude about class standard, grades, and other student complaints <br>
+-- Modeling appropriate professional attitudes and behaviours to staff, faculty, and students <br>
+-- Acted as a representative for the center across campus <br>
+
+**Research Intern in Division of Biomedical-Informatics** Jan 2016 - Jul
+2017 <br> *Cincinnati Children's Hospital Medical Center, Cincinnati,
+Ohio* -- Worked under the supervision of Eric Kirkendall M.D. and Judith
+Dexheimer Ph.D <br> -- Assisted in the development and implementation of
+a mathematical model and numerical algorithm to optimize dosing rules
+from historical dosing data <br> -- Wrote SQL queries to retrieve
+medication order/alert data from database <br> -- Collected and graphed
+data in Excel/R to find trends in medication orders/alerts <br> --
+Drafted a manuscript for publication in Biomedical Informatics Insights
+<br> --- Results were presented at the American Academy of Pediatrics
+and the Ohio Academy of Science <br>
 
 ## Organizational Leadership <br>
-**National Liaison for the Union of Concerned Scientists**   May 2021 - 2022 <br>
-*University of Cincinnati Science Policy Ambassadors* <br>
--- Communicates with the Union of Concerned Scientists and relays events to local group <br>
 
-**President of NeuroSociety**   2015 - 2016 <br>
-	-- Led meetings for undergraduate organization that explores topics and career options in neuroscience <br>
-	-- Coordinated with a team of officers to schedule guest speakers, plan budgets for food at meetings, and make students aware through social media <br>
+**National Liaison for the Union of Concerned Scientists** May 2021 -
+2022 <br> *University of Cincinnati Science Policy Ambassadors* <br> --
+Communicates with the Union of Concerned Scientists and relays events to
+local group <br>
+
+**President of NeuroSociety** 2015 - 2016 <br> -- Led meetings for
+undergraduate organization that explores topics and career options in
+neuroscience <br> -- Coordinated with a team of officers to schedule
+guest speakers, plan budgets for food at meetings, and make students
+aware through social media <br>
 
 ## Certifications <br>
-**HSR CORE for 2017 Program, CITI Program** May 09, 2021 - May 08, 2024 <br>
-*Greater Cincinnati Academic and Regional Health Centers* <br>
+
+**HSR CORE for 2017 Program, CITI Program** May 09, 2021 - May 08, 2024
+<br> *Greater Cincinnati Academic and Regional Health Centers* <br>
 
 ## Honors & Scholarships <br>
-**Recipient, Graduate Incentive Award**   2017 - 2018 <br>
-*University of Cincinnati Department of Mathematical Sciences, Cincinnati, Ohio* <br>
-<br>
-**Recipient, STEM Research Award**   2016 - 2017 <br>
-*University of Cincinnati Department of Mathematical Sciences, Cincinnati, Ohio* <br>
-<br>
-**Recipient, Harris Hancock Scholarship**   2015 - 2016 <br>
-*University of Cincinnati Department of Mathematical Sciences, Cincinnati, Ohio* <br>
-<br>
-**Recipient, Deans List**   2014 - 2017 <br>
-*University of Cincinnati, Cincinnati, Ohio* <br>
-<br>
 
+**Recipient, Graduate Incentive Award** 2017 - 2018 <br> *University of
+Cincinnati Department of Mathematical Sciences, Cincinnati, Ohio* <br>
+<br> **Recipient, STEM Research Award** 2016 - 2017 <br> *University of
+Cincinnati Department of Mathematical Sciences, Cincinnati, Ohio* <br>
+<br> **Recipient, Harris Hancock Scholarship** 2015 - 2016 <br>
+*University of Cincinnati Department of Mathematical Sciences,
+Cincinnati, Ohio* <br> <br> **Recipient, Deans List** 2014 - 2017 <br>
+*University of Cincinnati, Cincinnati, Ohio* <br> <br>
 
 ## Courses Taken: <br>
 
-**Bachelor of Science: Mathematical Sciences** <br>
--- Pre-Calculus <br>
--- Calculus I & II <br>
--- Multivariable Calculus <br>
--- Dynamical Systems <br>
--- Linear Algebra <br>
--- Introduction to Abstract Math <br>
--- Introduction to Analysis <br>
--- Mathematical Modeling <br>
--- Abstract Linear Algebra <br>
--- Partial Differential Equations and Fourier Analysis <br>
--- Applied Probability and Stochastic Processes <br>
--- Mathematical Programming <br>
--- Probability & Statistics <br>
+**Bachelor of Science: Mathematical Sciences** <br> -- Pre-Calculus <br>
+-- Calculus I & II <br> -- Multivariable Calculus <br> -- Dynamical
+Systems <br> -- Linear Algebra <br> -- Introduction to Abstract Math
+<br> -- Introduction to Analysis <br> -- Mathematical Modeling <br> --
+Abstract Linear Algebra <br> -- Partial Differential Equations and
+Fourier Analysis <br> -- Applied Probability and Stochastic Processes
+<br> -- Mathematical Programming <br> -- Probability & Statistics <br>
 <br>
 
-**Master of Science: Mathematical Sciences** <br>
--- Ordinary Differential Equations <br>
--- Advanced Mathematical Modeling <br>
--- Numerical Linear Algebra <br>
--- Numerical Analysis <br>
--- Applied Mathematics Methods <br>
--- Applied Statistics <br>
--- Scientific Computation <br>
--- Advanced Algorithms <br> 
-<br>
-**Doctorate of Philosophy: Biostatistics** <br>
--- Mathematical Statistics <br>
--- Advanced Biostatistics <br>
--- Computational Statistics <br>
--- Experimental Design <br>
--- Regression Analysis <br>
--- Introduction to Data Science <br>
--- Data Science for Biomedical Research <br>
--- Introduction to Epideimiology <br>
--- Meta-Analysis <br>
--- Clinical Trials <br>
--- Statistical Genetics <br> 
--- General Linear Models <br>
--- Applied Multivariate Analysis <br>
--- Biostatistics in Research <br>
+**Master of Science: Mathematical Sciences** <br> -- Ordinary
+Differential Equations <br> -- Advanced Mathematical Modeling <br> --
+Numerical Linear Algebra <br> -- Numerical Analysis <br> -- Applied
+Mathematics Methods <br> -- Applied Statistics <br> -- Scientific
+Computation <br> -- Advanced Algorithms <br> <br> **Doctorate of
+Philosophy: Biostatistics** <br> -- Mathematical Statistics <br> --
+Advanced Biostatistics <br> -- Computational Statistics <br> --
+Experimental Design <br> -- Regression Analysis <br> -- Introduction to
+Data Science <br> -- Data Science for Biomedical Research <br> --
+Introduction to Epideimiology <br> -- Meta-Analysis <br> -- Clinical
+Trials <br> -- Statistical Genetics <br> -- General Linear Models <br>
+-- Applied Multivariate Analysis <br> -- Biostatistics in Research <br>
 -- Survey of Toxicology <br>

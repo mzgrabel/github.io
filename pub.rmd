@@ -1,6 +1,7 @@
 ---
-title: "Publications"
+title: ""
 ---
+# Publications
 
 **Abstracts**
 
@@ -14,7 +15,35 @@ Shaikh, Hira Ghazal, et al. Survival outcomes of post-transplant lymphoprolifera
 
 Grabel MZ, Vaughan BL, Dexheimer JW, Kirkendall ES. Mathematical Model for Computer-Assisted Modifications of Medication Dosing Rules. *Journal of Biomedical Informatics Insights*. Print. DOI: [https://doi.org/10.1177/1178222619829079](https://doi.org/10.1177/1178222619829079)
 
+**Artciles under Review**
+
+Grabel M, Changizi B, Merola A. Pallidal Deep Brain Stimulation for Tardive Syndromes: A Meta Analysis of Clinical Outcomes. *Journal of Neurology*
+
 **Masters Thesis**
 
 Grabel, Michael Z. A Lagrangian/Eulerian Approach for Capturing Topological Changes in Moving Interface Problems. 2019
 [https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&p10_accession_num=ucin1563527241172213](https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&p10_accession_num=ucin1563527241172213)
+
+# Presentations
+
+Distributed Representation of Cortical Activity during Decision-Making [Poster Presentation] <br>
+*National Institutes of Health Summer Poster Day* $~~~~~~~~~~$ 4 Aug 2022 <br>
+
+Pallidal Deep Brain Stimulation for Tardive Syndromes: A Meta Analysis of Clinical Outcomes <br>
+*Biostatistics and Bioinformatics Seminar, University of Cincinnati* $~~~~~~~~~~$ 21 Jan 2022 <br>
+
+Mathematical Model for Computer-Assisted Modification of Medication Dosing Rules <br>
+*Biostatistics and Bioinformatics Seminar, University of Cincinnati* $~~~~~~~~~~$ 9 Oct 2020 <br>
+
+A Lagrangian/Eulerian Approach for Capturing Topological Changes in Moving Interface
+Problems <br>
+*Graduate Student Seminar, University of Cincinnati* $~~~~~~~~~~$ 12 Sep 2019 <br>
+
+Level Set and Fast Marching Methods: An Introduction to Theory of Moving Interfaces <br>
+*Graduate Student Seminar, University of Cincinnati* $~~~~~~~~~~$ 13 Sep 2017
+
+A Mathematical Model for Computer-Assisted Modification of Medication Dosing Rules
+[Poster Presentation] <br> 
+*Ohio Academy of Science 126th Annual Meeting at the University of Cincinnati* $~~~~~~~~~~$ 8 Apr 2017 <br>
+
+# Research
