@@ -11,14 +11,24 @@
 
 
 
-<title>Publications</title>
+<title>pub.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -33,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -50,32 +55,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -86,10 +66,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -106,40 +82,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -167,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -179,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -190,10 +142,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -205,7 +170,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -272,12 +236,12 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Mike Grabel</a>
+      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -285,10 +249,7 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="about.html">CV</a>
-</li>
-<li>
-  <a href="pub.html">Publications</a>
+  <a href="pub.html">Publications and Research</a>
 </li>
 <li>
   <a href="piano.html">Piano</a>
@@ -304,22 +265,71 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">Publications</h1>
 
 </div>
 
 
+<div id="publications" class="section level1">
+<h1>Publications</h1>
 <p><strong>Abstracts</strong></p>
-<p>Grabel MZ, Vaughan BL, Dexheimer JW, Kirkendall ES. A Mathematical Model for Computer-Assisted Modification of Medication Dosing Rules. [Abstract] <em>Ohio Journal of Science</em>, 117 (1), 29. 2017. Print. DOI: <a href="http://dx.doi.org/10.18061/ojs.v117i1.5770">http://dx.doi.org/10.18061/ojs.v117i1.5770</a></p>
-<p>Shaikh, Hira Ghazal, et al. Survival outcomes of post-transplant lymphoproliferative disorder: A 12-year analysis. <em>Journal of Clinical Oncology</em> 39, 2021 (suppl 15; abstr e19543) DOI: 10.1200/JCO.2021.39.15_suppl.e19543 <a href="https://meetinglibrary.asco.org/record/199988/abstract">https://meetinglibrary.asco.org/record/199988/abstract</a></p>
+<p>Grabel MZ, Vaughan BL, Dexheimer JW, Kirkendall ES. A Mathematical
+Model for Computer-Assisted Modification of Medication Dosing Rules.
+[Abstract] <em>Ohio Journal of Science</em>, 117 (1), 29. 2017. Print.
+DOI: <a
+href="http://dx.doi.org/10.18061/ojs.v117i1.5770">http://dx.doi.org/10.18061/ojs.v117i1.5770</a></p>
+<p>Shaikh, Hira Ghazal, et al. Survival outcomes of post-transplant
+lymphoproliferative disorder: A 12-year analysis. <em>Journal of
+Clinical Oncology</em> 39, 2021 (suppl 15; abstr e19543) DOI:
+10.1200/JCO.2021.39.15_suppl.e19543 <a
+href="https://meetinglibrary.asco.org/record/199988/abstract">https://meetinglibrary.asco.org/record/199988/abstract</a></p>
 <p><strong>Articles</strong></p>
-<p>Grabel MZ, Vaughan BL, Dexheimer JW, Kirkendall ES. Mathematical Model for Computer-Assisted Modifications of Medication Dosing Rules. <em>Journal of Biomedical Informatics Insights</em>. Print. DOI: <a href="https://doi.org/10.1177/1178222619829079">https://doi.org/10.1177/1178222619829079</a></p>
+<p>Grabel MZ, Vaughan BL, Dexheimer JW, Kirkendall ES. Mathematical
+Model for Computer-Assisted Modifications of Medication Dosing Rules.
+<em>Journal of Biomedical Informatics Insights</em>. Print. DOI: <a
+href="https://doi.org/10.1177/1178222619829079">https://doi.org/10.1177/1178222619829079</a></p>
+<p><strong>Artciles under Review</strong></p>
+<p>Grabel M, Changizi B, Merola A. Pallidal Deep Brain Stimulation for
+Tardive Syndromes: A Meta Analysis of Clinical Outcomes. <em>Journal of
+Neurology</em></p>
 <p><strong>Masters Thesis</strong></p>
-<p>Grabel, Michael Z. A Lagrangian/Eulerian Approach for Capturing Topological Changes in Moving Interface Problems. 2019 <a href="https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&amp;p10_accession_num=ucin1563527241172213">https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&amp;p10_accession_num=ucin1563527241172213</a></p>
+<p>Grabel, Michael Z. A Lagrangian/Eulerian Approach for Capturing
+Topological Changes in Moving Interface Problems. 2019 <a
+href="https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&amp;p10_accession_num=ucin1563527241172213">https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&amp;p10_accession_num=ucin1563527241172213</a></p>
+</div>
+<div id="presentations" class="section level1">
+<h1>Presentations</h1>
+<p>Distributed Representation of Cortical Activity during
+Decision-Making [Poster Presentation] <br> <em>National Institutes of
+Health Summer Poster Day</em> <span
+class="math inline">\(~~~~~~~~~~\)</span> 4 Aug 2022 <br></p>
+<p>Pallidal Deep Brain Stimulation for Tardive Syndromes: A Meta
+Analysis of Clinical Outcomes <br> <em>Biostatistics and Bioinformatics
+Seminar, University of Cincinnati</em> <span
+class="math inline">\(~~~~~~~~~~\)</span> 21 Jan 2022 <br></p>
+<p>Mathematical Model for Computer-Assisted Modification of Medication
+Dosing Rules <br> <em>Biostatistics and Bioinformatics Seminar,
+University of Cincinnati</em> <span
+class="math inline">\(~~~~~~~~~~\)</span> 9 Oct 2020 <br></p>
+<p>A Lagrangian/Eulerian Approach for Capturing Topological Changes in
+Moving Interface Problems <br> <em>Graduate Student Seminar, University
+of Cincinnati</em> <span class="math inline">\(~~~~~~~~~~\)</span> 12
+Sep 2019 <br></p>
+<p>Level Set and Fast Marching Methods: An Introduction to Theory of
+Moving Interfaces <br> <em>Graduate Student Seminar, University of
+Cincinnati</em> <span class="math inline">\(~~~~~~~~~~\)</span> 13 Sep
+2017</p>
+<p>A Mathematical Model for Computer-Assisted Modification of Medication
+Dosing Rules [Poster Presentation] <br> <em>Ohio Academy of Science
+126th Annual Meeting at the University of Cincinnati</em> <span
+class="math inline">\(~~~~~~~~~~\)</span> 8 Apr 2017 <br></p>
+</div>
+<div id="research" class="section level1">
+<h1>Research</h1>
+</div>
 
 
 
@@ -348,7 +358,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
