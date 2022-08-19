@@ -51,5 +51,5 @@ A Mathematical Model for Computer-Assisted Modification of Medication Dosing Rul
 
 <img src="Poster Grabel MMCAMMDR.png" align="center" width="680" height="560"/> <br>
 
-
 # Research
+
