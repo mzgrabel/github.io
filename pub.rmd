@@ -46,4 +46,10 @@ A Mathematical Model for Computer-Assisted Modification of Medication Dosing Rul
 [Poster Presentation] <br> 
 *Ohio Academy of Science 126th Annual Meeting at the University of Cincinnati* $~~~~~~~~~~$ 8 Apr 2017 <br>
 
+# Posters
+<img src="Poster_Grabel.png" align="center" width="680" height="560"/> <br>
+
+<img src="Poster Grabel MMCAMMDR.png" align="center" width="680" height="560"/> <br>
+
+
 # Research
