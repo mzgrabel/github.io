@@ -3,12 +3,6 @@ navbar:
   title: ""
   left:
     - text: "Home"
-      href: index.html
-    - text: "Publications and Research"
-      href: pub.html
-    - text: "Piano"
-      href: piano.html
-    - text: "Tourette's Syndrome"
       href: ts.html
 
 output:
