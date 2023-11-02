@@ -1,5 +1,8 @@
 ---
 title: ""
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 <img src="profile21.jpg" align="right" width="250" height="350"/> <br>
@@ -18,10 +21,9 @@ Independent <br> -- Willingness to Learn <br>
 
 ## Education <br>
 
-**Doctor of Philosophy, Biostatistics** Exp Aug or Dec 2023 <br> *University of
+**Doctor of Philosophy, Biostatistics** Exp 2024 <br> *University of
 Cincinnati College of Medicine, Cincinnati, Ohio* <br> 
 Dissertation: TBD <br>
-Advisors: Prof. Wei-Wen Hsu and Prof. Judith Dexheimer <br>
 GPA: 3.7/4.0 <br>
 **Master of
 Science, Mathematical Sciences (Applied)** Aug 2019 <br> *University of
