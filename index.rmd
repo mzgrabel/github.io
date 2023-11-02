@@ -1,8 +1,5 @@
 ---
 title: ""
-editor_options: 
-  markdown: 
-    wrap: 72
 ---
 
 <img src="profile21.jpg" align="right" width="250" height="350"/> <br>

@@ -2,7 +2,7 @@ name: "mzgrabel"
 navbar:
   title: ""
   left:
-    - text: "Home"
+    - text: "Tourette's Syndrome"
       href: ts.html
 
 output:

@@ -1,5 +1,8 @@
 ---
 title: "What is Tourette's Syndrome?"
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 I have a neurological movement disorder called Tourette's Syndrome. It is a difficult and complex disorder. People are born with this disorder and it is lifelong. The onset of symptoms occur anywhere between the ages of 3 to 7 years old. It is also 3 times more likely to occur in males than in females. Tics vary from person to person and the severity ranges from mild to severe. Tics also wax and wane. It is hardly ever constant. Stress, anxiety, and even excitement can trigger an increase in tics. Symptoms are usually most severe during puberty and usually dies out in adulthood. It is rare to see it continue so severely into adulthood like me but I am a rare creature. <br> 
